@@ -76,5 +76,3 @@ function updateTimerDisplay({ days, hours, minutes, seconds }) {
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
-
-// after failing
